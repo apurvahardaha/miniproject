@@ -1,0 +1,114 @@
+.part-1{
+    text-align: center;
+    background: url("https://media.istockphoto.com/id/1404196879/photo/serious-casual-businesswoman-sitting-at-the-table-with-laptop-in-home-office-and-looking-at.webp?s=170667a&w=0&k=20&c=lPDv41MNuuF6kWaFlxr_UHWubD8Gfz0WDWlNpjlQf6g=");
+    background-repeat: no-repeat;
+    background-position:100% ;
+    background-size: cover;
+    height: 700px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.part-2{
+    background-color: #000;
+    margin: 0;
+    position: relative;
+    top: -80px;
+    color:white;
+    text-align: center;
+}
+.part-2 h3{
+    
+    font-size:80px ;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+
+}
+
+ span{
+    font-size: 96px;
+    
+}
+img{
+    border-radius:15px 15px 0 0 ;
+}
+.card-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(340px,1fr));
+    gap: 20px;
+    margin: 0;
+    
+    
+    max-width: 340px;
+    height: 200px;
+}
+.card-content h3{
+    margin: 10px;
+}
+.card-content p{
+    position: relative;
+    top: -20px;
+}
+
+
+.part-3{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 50px;
+
+   
+}
+.grid-item{
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px grey;
+    position: relative;
+    margin-top: -100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.grid-item img{
+ width:380px ;
+ height: 200px;
+}
+.contact{
+    background-color: green;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+.about{
+    background-color: brown;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+.part-4{
+    display: flex;
+    
+    justify-content: space-around;
+    margin: 20px ;
+    height: 200px;
+}
+@media screen and (max-width:786px) {
+
+    .part-1{
+        height: 50vh;
+    }
+    .part-2{
+        font-size: 24px;
+    }
+    .part-3{
+        display: flex;
+        flex-direction: column;
+    }
+    .part-4{
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+    }
+}
